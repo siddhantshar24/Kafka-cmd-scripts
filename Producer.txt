@@ -1,0 +1,22 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\kafka> .\bin\windows\kafka-topics.bat --create --topic myFirstTopic --bootstrap-server localhost:9092
+Created topic myFirstTopic.
+PS C:\kafka> .\bin\windows\kafka-console-producer.bat --topic myFirstTopic --bootstrap-server localhost:9092
+>lets do
+>this is my first message
+>989326
+>what can I do man
+>This is very very easy
+>sending messages in realtime huh?
+>[2023-09-28 21:08:58,483] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:00,672] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:02,861] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:05,234] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:08,016] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:10,984] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:13,938] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:16,813] WARN [Producer clientId=console-producer] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)

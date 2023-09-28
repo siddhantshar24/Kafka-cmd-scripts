@@ -1,0 +1,21 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\kafka> .\bin\windows\kafka-console-consumer.bat --topic myFirstTopic --from-beginning --bootstrap-server localhost:9092
+lets do
+this is my first message
+989326
+what can I do man
+This is very very easy
+sending messages in realtime huh?
+[2023-09-28 21:08:58,499] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:00,703] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:02,955] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:05,391] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:08,190] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:11,264] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:14,376] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:17,375] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-09-28 21:09:20,390] WARN [Consumer clientId=console-consumer, groupId=console-consumer-30234] Connection to node 0 (host.docker.internal/192.168.0.4:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
